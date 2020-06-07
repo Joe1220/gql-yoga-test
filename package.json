@@ -1,0 +1,30 @@
+{
+  "name": "gql-yoga-test",
+  "version": "1.0.0",
+  "description": "test code for gql-yoga, ts, heroku study",
+  "main": "index.js",
+  "author": "joe1220@daum.net",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/index.ts"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/morgan": "^1.9.0",
+    "@types/node": "^14.0.11"
+  }
+}
